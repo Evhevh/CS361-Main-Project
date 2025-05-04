@@ -56,7 +56,9 @@ function DeleteCardPage() {
   return (
     <div className="delete-card-page">
       <h1>Delete Card Page</h1>
-      <p>Are you sure you want to delete <strong>{cardName}</strong> (ID: {cardId})?</p>
+      <p>Are you sure you want to delete <strong>{cardName}</strong>?</p>
+      <p>Deleting will remove this card from your collection permanently.</p>
+      <p>This cannot be undone.</p>
       {error && <p className="error-message">{error}</p>}
       <button onClick={handleDelete}>Confirm Delete</button>
       <Link to={`/card-details/${cardId}`}>
