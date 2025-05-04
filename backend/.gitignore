@@ -1,0 +1,52 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyd
+.python-version
+venv/
+env/
+ENV/
+.venv/
+
+# Static files (if you manage them separately)
+static/
+
+# Environment variables
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib64/
+lib/
+sdist/
+var/
+wheels/
+pip-log.txt
+pip-delete-this.txt
+.tox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.egg-info
+MANIFEST
+
+# Jupyter Notebook related (if applicable)
+.ipynb_checkpoints
+
+# OS or editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
+.idea/
